@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="kazisrabon">
+    <link rel="shortcut icon" href="http://localhost/chokrobak/assets/images/favicon.ico">
     <link href="http://localhost/chokrobak/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://localhost/chokrobak/assets/css/bootstrap-theme.min.css" rel="stylesheet">
 <!--    <link href="http://localhost/chokrobak/assets/css/card.css" rel="stylesheet">-->
@@ -83,7 +84,7 @@
                     <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
                     <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
                     <a href="#" class="list-group-item list-group-item-info">Radios</a>
-                    <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
+                    <a href="http://localhost/chokrobak/index.php/newspaper" class="list-group-item list-group-item-success">Newspaper</a>
                     <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
                     <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
                 </div>
@@ -111,20 +112,7 @@
             </div>
         </div>
         <div class="row" id="channel">
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        অন্যান্য
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
-                    <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
-                    <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
-                    <a href="#" class="list-group-item list-group-item-info">Radios</a>
-                    <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
-                    <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
-                    <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
-                </div>
-            </div>
+            <div class="col-md-3"></div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail">
                     <img src="http://localhost/chokrobak/assets/images/tv/chokrobak.jpg" alt="...">
@@ -148,20 +136,7 @@
             </div>
         </div>
         <div class="row" id="channel">
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        অন্যান্য
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
-                    <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
-                    <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
-                    <a href="#" class="list-group-item list-group-item-info">Radios</a>
-                    <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
-                    <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
-                    <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
-                </div>
-            </div>
+            <div class="col-md-3"></div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail">
                     <img src="http://localhost/chokrobak/assets/images/tv/chokrobak.jpg" alt="...">
@@ -185,20 +160,7 @@
             </div>
         </div>
         <div class="row" id="channel">
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        অন্যান্য
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
-                    <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
-                    <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
-                    <a href="#" class="list-group-item list-group-item-info">Radios</a>
-                    <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
-                    <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
-                    <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
-                </div>
-            </div>
+            <div class="col-md-3"></div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail">
                     <img src="http://localhost/chokrobak/assets/images/tv/chokrobak.jpg" alt="...">
@@ -222,20 +184,7 @@
             </div>
         </div>
         <div class="row" id="channel">
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        অন্যান্য
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
-                    <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
-                    <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
-                    <a href="#" class="list-group-item list-group-item-info">Radios</a>
-                    <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
-                    <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
-                    <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
-                </div>
-            </div>
+            <div class="col-md-3"></div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail">
                     <img src="http://localhost/chokrobak/assets/images/tv/chokrobak.jpg" alt="...">
@@ -258,20 +207,7 @@
                 </div>
             </div>
         </div><div class="row" id="channel">
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        অন্যান্য
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
-                    <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
-                    <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
-                    <a href="#" class="list-group-item list-group-item-info">Radios</a>
-                    <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
-                    <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
-                    <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
-                </div>
-            </div>
+            <div class="col-md-3"></div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail">
                     <img src="http://localhost/chokrobak/assets/images/tv/chokrobak.jpg" alt="...">
@@ -294,20 +230,7 @@
                 </div>
             </div>
         </div><div class="row" id="channel">
-            <div class="col-md-3">
-                <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        অন্যান্য
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
-                    <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
-                    <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
-                    <a href="#" class="list-group-item list-group-item-info">Radios</a>
-                    <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
-                    <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
-                    <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
-                </div>
-            </div>
+            <div class="col-md-3"></div>
             <div class="col-sm-6 col-md-3">
                 <div class="thumbnail">
                     <img src="http://localhost/chokrobak/assets/images/tv/chokrobak.jpg" alt="...">

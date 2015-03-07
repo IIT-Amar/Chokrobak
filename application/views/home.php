@@ -210,7 +210,7 @@
                     <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
                     <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
                     <a href="#" class="list-group-item list-group-item-info">Radios</a>
-                    <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
+                    <a href="http://localhost/chokrobak/index.php/newspaper" class="list-group-item list-group-item-success">Newspaper</a>
                     <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
                     <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
                 </div>
