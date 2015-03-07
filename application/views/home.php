@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="kazisrabon">
+    <link rel="shortcut icon" href="http://localhost/chokrobak/assets/images/favicon.ico">
     <link href="http://localhost/chokrobak/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://localhost/chokrobak/assets/css/bootstrap-theme.min.css" rel="stylesheet">
 
@@ -140,7 +141,7 @@
 </script>
 <div class="page-container">
     <div class="container">
-        <div class="row">
+        <div class="row" id="header">
             <div class="col-md-6">
                 <a href="#"><img class="img-responsive img-portfolio img-hover" src="http://localhost/chokrobak/assets/images/chokrobak.jpg" alt=""></a>
             </div>
@@ -150,7 +151,7 @@
                 <img class="img-responsive img-portfolio img-hover" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="">
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="headline">
             <div class="col-md-1">
                 <h3 style="display: inline;">শিরোনাম:</h3>
             </div>
@@ -171,17 +172,17 @@
                 </marquee>
             </div>
         </div>
-        <div class="row">
+        <div class="row" id="navigation">
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <a class="navbar-brand" href="#">চক্রবাক</a>
+                        <a class="navbar-brand" href="http://localhost/chokrobak/">চক্রবাক</a>
                     </div>
 
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="home.php">হোম</a></li>
+                            <li><a href="http://localhost/chokrobak/">হোম</a></li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">পত্রিকা<b class="caret"></b></a>
                                 <ul class="dropdown-menu">
@@ -207,7 +208,7 @@
                     </a>
                     <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
                     <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
-                    <a href="#" class="list-group-item list-group-item-success">TV Channels/a>
+                    <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
                     <a href="#" class="list-group-item list-group-item-info">Radios</a>
                     <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
                     <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
@@ -340,7 +341,7 @@
                     </a>
                     <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
                     <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
-                    <a href="#" class="list-group-item list-group-item-success">TV Channels/a>
+                    <a href="#" class="list-group-item list-group-item-success">TV Channels</a>
                         <a href="#" class="list-group-item list-group-item-info">Radios</a>
                         <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
                         <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
