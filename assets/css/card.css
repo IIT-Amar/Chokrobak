@@ -1,0 +1,75 @@
+body{
+	background:url('http://www.cssdeck.com/uploads/media/items/0/0Rs78ic.gif');
+	color:#888;
+	padding:0;
+	margin:0;
+	font: 72.5% 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+}
+
+/*Container*/
+.container{
+	width:820px;
+	margin:30px auto;
+	padding:25px;
+	min-height:400px;
+	height:auto;	
+}
+.container h2 { margin-top:30px;}
+
+.box h3{
+	text-align:center;
+	position:relative;
+	top:80px;
+}
+.box {
+	width:70%;
+	height:200px;
+	background:#FFF;
+	margin:40px auto;
+}
+/*==================================================
+ * Effect 5
+ * ===============================================*/
+.effect5
+{
+  position: relative;
+}
+.effect5:before, .effect5:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+.effect5:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
+/*Headers*/
+h1 , h1 a, h1 a:hover{ color:#FFF;	font-family: Arial; margin:10px;}
+article h1, article h1 a, article h1 a:hover, h2, h3, h4, h5, h6 { line-height: 1.1em; color:#444;font-family: 'PT Sans Narrow', Calibri, 'Myriad Pro', Tahoma, Arial; padding: 10px 0; margin:0;}
+article h1, article h1 a, h2 { font-size: 30px; letter-spacing: -1px;}
+h3 { font-size: 30px; }
+h4 { font-size: 22px;  font-weight: normal;  padding-bottom: 10px;}
+h5 { font-size: 14px;}
+h6 {}

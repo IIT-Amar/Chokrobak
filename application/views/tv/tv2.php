@@ -12,6 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="kazisrabon">
+    <link rel="shortcut icon" href="http://localhost/chokrobak/assets/images/favicon.ico">
     <link href="http://localhost/chokrobak/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://localhost/chokrobak/assets/css/bootstrap-theme.min.css" rel="stylesheet">
     <!--    <link href="http://localhost/chokrobak/assets/css/card.css" rel="stylesheet">-->
