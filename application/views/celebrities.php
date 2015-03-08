@@ -105,17 +105,17 @@
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-lg-4">
-                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/profile/Sujit%20musotafa.JPG" alt="" style="width: 140px; height: 140px;">
                         <h2>Heading</h2>
                         <p><a class="btn btn-primary" href="http://localhost/chokrobak/index.php/celebrity/celebrity1" role="button">View details »</a></p>
                     </div>
                     <div class="col-lg-4">
-                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/profile/Mita%20Mustafa.jpg" alt="" style="width: 140px; height: 140px;">
                         <h2>Heading</h2>
                         <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
                     </div>
                     <div class="col-lg-4">
-                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/profile/Noshin%20Laila.jpg" alt="" style="width: 140px; height: 140px;">
                         <h2>Heading</h2>
                         <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
                     </div>
@@ -123,12 +123,12 @@
                 <br/>
                 <div class="row">
                     <div class="col-lg-4">
-                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/profile/Salma%20Anjum.jpg" alt="" style="width: 140px; height: 140px;">
                         <h2>Heading</h2>
                         <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
                     </div>
                     <div class="col-lg-4">
-                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/profile/Badrunnesa%20Dalia.jpg" alt="" style="width: 140px; height: 140px;">
                         <h2>Heading</h2>
                         <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
                     </div>

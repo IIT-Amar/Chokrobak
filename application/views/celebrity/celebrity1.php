@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="http://localhost/chokrobak/assets/images/favicon.ico">
     <link href="http://localhost/chokrobak/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://localhost/chokrobak/assets/css/bootstrap-theme.min.css" rel="stylesheet">
-    <!--    <link href="http://localhost/chokrobak/assets/css/card.css" rel="stylesheet">-->
+<!--    <link href="http://localhost/chokrobak/assets/css/glyphicons.css" rel="stylesheet">-->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.1.min.js"></script>
 </head>
@@ -105,16 +105,17 @@
             <div class="col-md-9">
                 <div class="row">
                     <div class="col-md-4">
-                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 240px; height: 240px;">
+                        <img class="img-circle" src="<?php echo $source;?>" alt="" style="width: 240px; height: 240px;">
                     </div>
                     <br/>
                     <br/>
 <!--                    <div class="col-md-1"/>-->
                     <div class="col-md-7">
-                        <h3>Name:</h3>
-                        <h3>Profession:</h3>
-                        <h3>Birth Date:</h3>
-                        <h3>Birth Place:</h3>
+                        <h3>Name: <?php echo $name;?></h3>
+                        <h3>Profession: <?php echo $profession;?></h3>
+                        <h3>Birth Date: <?php echo $birthdate;?></h3>
+                        <h3>Birth Place: <?php echo $birthplace;?></h3>
+                        <i class="icon-large icon-facebook"></i>
                     </div>
                 </div>
                 <br/>

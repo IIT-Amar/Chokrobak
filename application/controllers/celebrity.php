@@ -8,6 +8,14 @@
 class Celebrity extends CI_Controller{
     public function celebrity1($page = 'celebrity1')
     {
-        $this->load->view("celebrity/".$page);
+        $data = array(
+            'source' => 'http://localhost/chokrobak/assets/images/profile/Sujit%20musotafa.JPG',
+            'name' => 'Shujit Mustofa',
+            'profession' => 'Singer',
+            'birthdate' => '...',
+            'birthplace' => '...'
+        );
+
+        $this->load->view("celebrity/".$page, $data);
     }
 }
