@@ -1,33 +1,36 @@
-/**
- * Created by PhpStorm.
- * User: IIT
- * Date: 3/7/15
- * Time: 10:10 AM
- */
+<!--/**-->
+<!-- * Created by PhpStorm.-->
+<!-- * User: IIT-->
+<!-- * Date: 3/7/15-->
+<!-- * Time: 2:33 PM-->
+<!-- */-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>একুশে টেলিভিশন</title>
+    <title>Young Talent</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="kazisrabon">
     <link rel="shortcut icon" href="http://localhost/chokrobak/assets/images/favicon.ico">
     <link href="http://localhost/chokrobak/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://localhost/chokrobak/assets/css/bootstrap-theme.min.css" rel="stylesheet">
-<!--    <link href="http://localhost/chokrobak/assets/css/card.css" rel="stylesheet">-->
+    <!--    <link href="http://localhost/chokrobak/assets/css/card.css" rel="stylesheet">-->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.1.min.js"></script>
 </head>
 <body>
 <div class="page-container">
     <div class="container">
         <div class="row" id="header">
-            <div class="col-md-6">
+            <div class="col-md-4 ">
+                <br/>
+                <br/>
                 <a href="#"><img class="img-responsive img-portfolio img-hover" src="http://localhost/chokrobak/assets/images/chokrobak.jpg" alt=""></a>
             </div>
-            <div class="col-md-2">
-            </div>
             <div class="col-md-4">
+            </div>
+            <div class="col-md-3">
                 <img class="img-responsive img-portfolio img-hover" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="">
             </div>
         </div>
@@ -84,7 +87,9 @@
         <div class="row" id="channel">
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="#" class="list-group-item active"> অন্যান্য</a>
+                    <a href="#" class="list-group-item active">
+                        অন্যান্য
+                    </a>
                     <a href="http://localhost/chokrobak/index.php/celebrities" class="list-group-item list-group-item-success"> BD Celebrities</a>
                     <a href="http://localhost/chokrobak/index.php/youngtalents" class="list-group-item list-group-item-info">Young Talents</a>
                     <a href="http://localhost/chokrobak/index.php/athletes" class="list-group-item list-group-item-success">Athletes</a>
@@ -98,10 +103,50 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <embed name="lsplayer" wmode="opaque" bgcolor="#000000" src="http://cdn.livestream.com/grid/LSPlayer.swf?channel=mojamojatv&amp;clip=&amp;time=&amp;allowChat=true&amp;id=player&amp;hideInfo=false&amp;autoPlay=true&amp;isPopUpPlayer=true&amp;allowShare=true&amp;t=655286" width="100%" height="100%" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 240px; height: 240px;">
+                    </div>
+                    <br/>
+                    <br/>
+                    <!--                    <div class="col-md-1"/>-->
+                    <div class="col-md-7">
+                        <h3>Name:</h3>
+                        <h3>Profession:</h3>
+                        <h3>Birth Date:</h3>
+                        <h3>Birth Place:</h3>
+                    </div>
+                </div>
+                <br/>
+                <br/>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+                            <ul id="myTab" class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active"><a href="#about" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">About</a></li>
+                                <li role="presentation"><a href="#activity" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Activity</a></li>
+                                <li role="presentation"><a href="#achievement" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Achievement</a></li>
+                                <li role="presentation"><a href="#contact" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">Contact</a></li>
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div role="tabpanel" class="tab-pane fade in active" id="about" aria-labelledby="home-tab">
+                                    <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="activity" aria-labelledby="profile-tab">
+                                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="achievement" aria-labelledby="profile-tab">
+                                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                                </div>
+                                <div role="tabpanel" class="tab-pane fade" id="contact" aria-labelledby="profile-tab">
+                                    <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 </div>
 <footer class="footer">
@@ -133,7 +178,6 @@
         </div>
     </div>
 </footer>
-
 <script src="http://localhost/chokrobak/assets/js/bootstrap.js"></script>
 <script src="http://localhost/chokrobak/assets/js/jquery.js"></script>
 <script src="http://localhost/chokrobak/assets/js/bootstrap.min.js"></script>

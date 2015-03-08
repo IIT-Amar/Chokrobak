@@ -23,7 +23,7 @@
     <div class="page-container">
         <div class="container">
             <div class="row" id="header">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <a href="#"><img class="img-responsive img-portfolio img-hover" src="http://localhost/chokrobak/assets/images/chokrobak.jpg" alt=""></a>
                 </div>
                 <div class="col-md-2">
@@ -63,19 +63,20 @@
 
                         <div class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="http://localhost/chokrobak/">হোম</a></li>
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">পত্রিকা<b class="caret"></b></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">MAXXIS</a></li>
-                                        <li><a href="#">PHP Tutorials</a></li>
-                                        <li><a href="#">Javascript Tutorials</a></li>
-                                        <li><a href="#">CSS Tutorials</a></li>
-                                    </ul>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">NewsPaper<b class="caret"></b></a>
+                                    <!--                                <ul class="dropdown-menu">-->
+                                    <!--                                    <li><a href="#">MAXXIS</a></li>-->
+                                    <!--                                    <li><a href="#">PHP Tutorials</a></li>-->
+                                    <!--                                    <li><a href="#">Javascript Tutorials</a></li>-->
+                                    <!--                                    <li><a href="#">CSS Tutorials</a></li>-->
+                                    <!--                                </ul>-->
                                 </li>
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="contacts.html">Contacts</a></li>
-                                <li><a href="photoGallary.html">Photo Gallary</a></li>
+                                <li><a href="#">Archieve</a></li>
+                                <li><a href="#">Fund Raising</a></li>
+                                <li><a href="#">Future Plan</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
                     </div><!-- /.container-fluid -->
@@ -87,13 +88,16 @@
                         <a href="#" class="list-group-item active">
                             অন্যান্য
                         </a>
-                        <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
-                        <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
+                        <a href="http://localhost/chokrobak/index.php/celebrities" class="list-group-item list-group-item-success"> BD Celebrities</a>
+                        <a href="http://localhost/chokrobak/index.php/youngtalents" class="list-group-item list-group-item-info">Young Talents</a>
+                        <a href="http://localhost/chokrobak/index.php/athletes" class="list-group-item list-group-item-success">Athletes</a>
+                        <a href="http://localhost/chokrobak/index.php/writters" class="list-group-item list-group-item-info">Writters</a>
                         <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
-                        <a href="#" class="list-group-item list-group-item-info">Radios</a>
+                        <a href="http://localhost/chokrobak/index.php/radios" class="list-group-item list-group-item-info">Radios</a>
                         <a href="http://localhost/chokrobak/index.php/newspaper" class="list-group-item list-group-item-success">Newspaper</a>
-                        <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
-                        <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
+                        <a href="http://localhost/chokrobak/index.php/achievement" class="list-group-item list-group-item-info">Achievement</a>
+                        <a href="http://localhost/chokrobak/index.php/contributions" class="list-group-item list-group-item-success">Contributions</a>
+                        <a href="http://localhost/chokrobak/index.php/feedback" class="list-group-item list-group-item-info">Feedback</a>
                     </div>
                 </div>
                 <div class="col-md-9">

@@ -1,33 +1,36 @@
-/**
- * Created by PhpStorm.
- * User: IIT
- * Date: 3/7/15
- * Time: 10:10 AM
- */
+<!--/**-->
+<!-- * Created by PhpStorm.-->
+<!-- * User: IIT-->
+<!-- * Date: 3/7/15-->
+<!-- * Time: 2:33 PM-->
+<!-- */-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>একুশে টেলিভিশন</title>
+    <title>Young Tatents</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="kazisrabon">
     <link rel="shortcut icon" href="http://localhost/chokrobak/assets/images/favicon.ico">
     <link href="http://localhost/chokrobak/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://localhost/chokrobak/assets/css/bootstrap-theme.min.css" rel="stylesheet">
-<!--    <link href="http://localhost/chokrobak/assets/css/card.css" rel="stylesheet">-->
+    <!--    <link href="http://localhost/chokrobak/assets/css/card.css" rel="stylesheet">-->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.12.1.min.js"></script>
 </head>
 <body>
 <div class="page-container">
     <div class="container">
         <div class="row" id="header">
-            <div class="col-md-6">
+            <div class="col-md-4 ">
+                <br/>
+                <br/>
                 <a href="#"><img class="img-responsive img-portfolio img-hover" src="http://localhost/chokrobak/assets/images/chokrobak.jpg" alt=""></a>
             </div>
-            <div class="col-md-2">
-            </div>
             <div class="col-md-4">
+            </div>
+            <div class="col-md-3">
                 <img class="img-responsive img-portfolio img-hover" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="">
             </div>
         </div>
@@ -84,7 +87,9 @@
         <div class="row" id="channel">
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="#" class="list-group-item active"> অন্যান্য</a>
+                    <a href="#" class="list-group-item active">
+                        অন্যান্য
+                    </a>
                     <a href="http://localhost/chokrobak/index.php/celebrities" class="list-group-item list-group-item-success"> BD Celebrities</a>
                     <a href="http://localhost/chokrobak/index.php/youngtalents" class="list-group-item list-group-item-info">Young Talents</a>
                     <a href="http://localhost/chokrobak/index.php/athletes" class="list-group-item list-group-item-success">Athletes</a>
@@ -98,10 +103,79 @@
                 </div>
             </div>
             <div class="col-md-9">
-                <embed name="lsplayer" wmode="opaque" bgcolor="#000000" src="http://cdn.livestream.com/grid/LSPlayer.swf?channel=mojamojatv&amp;clip=&amp;time=&amp;allowChat=true&amp;id=player&amp;hideInfo=false&amp;autoPlay=true&amp;isPopUpPlayer=true&amp;allowShare=true&amp;t=655286" width="100%" height="100%" allowscriptaccess="always" allowfullscreen="true" type="application/x-shockwave-flash">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="http://localhost/chokrobak/index.php/youngtalent/youngtalent1" role="button">View details »</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                </div>
+                <br/>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="img-circle" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="" style="width: 140px; height: 140px;">
+                        <h2>Heading</h2>
+                        <p><a class="btn btn-primary" href="" role="button">View details »</a></p>
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
 </div>
 <footer class="footer">
@@ -133,7 +207,6 @@
         </div>
     </div>
 </footer>
-
 <script src="http://localhost/chokrobak/assets/js/bootstrap.js"></script>
 <script src="http://localhost/chokrobak/assets/js/jquery.js"></script>
 <script src="http://localhost/chokrobak/assets/js/bootstrap.min.js"></script>

@@ -142,12 +142,14 @@
 <div class="page-container">
     <div class="container">
         <div class="row" id="header">
-            <div class="col-md-6">
+            <div class="col-md-4 ">
+                <br/>
+                <br/>
                 <a href="#"><img class="img-responsive img-portfolio img-hover" src="http://localhost/chokrobak/assets/images/chokrobak.jpg" alt=""></a>
             </div>
-            <div class="col-md-2">
-            </div>
             <div class="col-md-4">
+            </div>
+            <div class="col-md-3">
                 <img class="img-responsive img-portfolio img-hover" src="http://localhost/chokrobak/assets/images/baby1.jpg" alt="">
             </div>
         </div>
@@ -173,46 +175,60 @@
             </div>
         </div>
         <div class="row" id="navigation">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="http://localhost/chokrobak/">চক্রবাক</a>
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://localhost/chokrobak/">চক্রবাক</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">NewsPaper<b class="caret"></b></a>
+                            <!--                                <ul class="dropdown-menu">-->
+                            <!--                                    <li><a href="#">MAXXIS</a></li>-->
+                            <!--                                    <li><a href="#">PHP Tutorials</a></li>-->
+                            <!--                                    <li><a href="#">Javascript Tutorials</a></li>-->
+                            <!--                                    <li><a href="#">CSS Tutorials</a></li>-->
+                            <!--                                </ul>-->
+                        </li>
+                        <li><a href="#">Archieve</a></li>
+                        <li><a href="#">Fund Raising</a></li>
+                        <li><a href="#">Future Plan</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                    <div class="col-sm-3 col-md-3 pull-right">
+                        <form class="navbar-form" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search" name="q">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-
-                    <div class="navbar-collapse collapse">
-                        <ul class="nav navbar-nav">
-                            <li><a href="http://localhost/chokrobak/">হোম</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">পত্রিকা<b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">MAXXIS</a></li>
-                                    <li><a href="#">PHP Tutorials</a></li>
-                                    <li><a href="#">Javascript Tutorials</a></li>
-                                    <li><a href="#">CSS Tutorials</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="contacts.html">Contacts</a></li>
-                            <li><a href="photoGallary.html">Photo Gallary</a></li>
-                        </ul>
-                    </div>
-                </div><!-- /.container-fluid -->
+                </div>
+                <!-- /.container-fluid -->
             </nav>
         </div>
         <div class="row">
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="#" class="list-group-item active">
-                        অন্যান্য
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
-                    <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
+                    <a href="#" class="list-group-item active"> অন্যান্য</a>
+                    <a href="http://localhost/chokrobak/index.php/celebrities" class="list-group-item list-group-item-success"> BD Celebrities</a>
+                    <a href="http://localhost/chokrobak/index.php/youngtalents" class="list-group-item list-group-item-info">Young Talents</a>
+                    <a href="http://localhost/chokrobak/index.php/athletes" class="list-group-item list-group-item-success">Athletes</a>
+                    <a href="http://localhost/chokrobak/index.php/writters" class="list-group-item list-group-item-info">Writters</a>
                     <a href="http://localhost/chokrobak/index.php/tvChannels" class="list-group-item list-group-item-success">TV Channels</a>
-                    <a href="#" class="list-group-item list-group-item-info">Radios</a>
+                    <a href="http://localhost/chokrobak/index.php/radios" class="list-group-item list-group-item-info">Radios</a>
                     <a href="http://localhost/chokrobak/index.php/newspaper" class="list-group-item list-group-item-success">Newspaper</a>
-                    <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
-                    <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
+                    <a href="http://localhost/chokrobak/index.php/achievement" class="list-group-item list-group-item-info">Achievement</a>
+                    <a href="http://localhost/chokrobak/index.php/contributions" class="list-group-item list-group-item-success">Contributions</a>
+                    <a href="http://localhost/chokrobak/index.php/feedback" class="list-group-item list-group-item-info">Feedback</a>
                 </div>
             </div>
             <div class="col-md-6">
@@ -339,13 +355,14 @@
                     <a href="#" class="list-group-item active">
                         নজরুল
                     </a>
-                    <a href="#" class="list-group-item list-group-item-success">Celebrities</a>
-                    <a href="#" class="list-group-item list-group-item-info">Young Tatents</a>
-                    <a href="#" class="list-group-item list-group-item-success">TV Channels</a>
-                        <a href="#" class="list-group-item list-group-item-info">Radios</a>
-                        <a href="#" class="list-group-item list-group-item-success">Newspaper</a>
-                        <a href="#" class="list-group-item list-group-item-info">Cultural News</a>
-                        <a href="#" class="list-group-item list-group-item-success">Fund Raising</a>
+                    <a href="#" class="list-group-item list-group-item-success">About Nazrul</a>
+                    <a href="#" class="list-group-item list-group-item-info">Nazrul Archieve</a>
+                    <a href="#" class="list-group-item list-group-item-success">Nazrul Collection</a>
+                    <a href="#" class="list-group-item list-group-item-info">Cultural Organization</a>
+                    <a href="#" class="list-group-item list-group-item-success">Nazrul Shangit Shilpi</a>
+                    <a href="#" class="list-group-item list-group-item-info">Nazrul Parishad</a>
+                    <a href="#" class="list-group-item list-group-item-success">Audion</a>
+                    <a href="#" class="list-group-item list-group-item-info">Videos</a>
                 </div>
             </div>
         </div>
